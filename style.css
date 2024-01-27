@@ -1,0 +1,153 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-section {
+  padding: 130px 230px;
+}
+header {
+  background-image: url("images/banner/banner2.png");
+  background-size: 100%;
+  background-position: top center left right;
+  background-repeat: no-repeat;
+}
+.banner-text {
+  text-align: right;
+}
+.header-main-text{
+    color:#151414;
+    font-size: 65px;
+    font-weight: 700;
+    align-items: end;
+    padding-left:600px ;
+}
+
+.contact-us-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #F15B22;
+    padding: 21px 25px 20px 26px;
+    border: 0;
+    border-radius: 5px;
+}
+.header-discription{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 600px;
+}
+/* main style start */
+.main-1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fail-text{
+  height:400px ;
+  width:420px;
+}
+.fail-head{
+  color:#151414;
+  font-size: 40px;
+  font-weight: 700;
+  padding-right: 100px;
+}
+.fail-description , .fail-list{
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* my plan style start */
+.plan-head{
+  text-align: center;
+  color:#151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 50px
+}
+.skill{
+  display: flex;
+  justify-content: space-around;
+}
+.skill-item{
+  align-items: center;
+  text-align: center;
+}
+.skill-name{
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+}
+.skill-description{
+  color:#737272;
+  font-size: 25px;
+  font-weight: 500;
+}
+.positive-mindset{
+  background-image: url('images/gradient2.png'),url('images/watch.png');
+  background-size: cover;
+  background-position: top center,top center;
+}
+.mindset-text{
+  padding: 59px 500px 24px 64px;
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 700;
+}
+.mindset-btn{
+  margin-left: 59px;
+  padding: 20px 36px;
+  border: 0;
+  border-radius: 5px;
+  background: #FFF;
+  color: #F15B22;
+  text-align: center;
+  color: #F15B22;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 59px;
+}
+/* footer start */
+footer{
+  background: #151414;
+}
+.footer-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-left-head-text{
+  color: #F8F8F8;
+  font-size: 45px;
+  font-weight: 700;
+}
+.left > p{
+  color: #F8F8F8;
+  padding: 16px 330px 16px 0;
+}
+.subs-text{
+  color: #FFF;
+  font-size: 25px;  
+  font-weight: 600;
+}
+.input{
+  border-radius: 8px;
+  border: 1px solid #FFF;
+  padding: 21px 158px 21px 21px;
+  background: #151414;
+  color:#FFF;
+  margin-bottom: 20px;
+
+}
+.subscribe-btn{
+  padding:20px 36px;
+  color: #F15B22;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 0;
+}
